@@ -1,0 +1,61 @@
+/* Style for the filter form */
+#wc-advanced-filter-form {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#wc-advanced-filter-form input[type="search"],
+#wc-advanced-filter-form input[type="number"],
+#wc-advanced-filter-form select,
+#wc-advanced-filter-form button {
+    display: block;
+    width: calc(100% - 2px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#wc-advanced-filter-form input[type="search"],
+#wc-advanced-filter-form input[type="number"] {
+    width: calc(50% - 2px);
+    float: left;
+}
+
+#wc-advanced-filter-form input[type="search"] {
+    margin-right: 10px;
+}
+
+#wc-advanced-filter-form select {
+    width: calc(50% - 2px);
+    float: left;
+}
+
+#wc-advanced-filter-form button {
+    background-color: #007cba;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    width: auto;
+    float: none;
+    display: block;
+}
+
+#wc-advanced-filter-form button:hover {
+    background-color: #005a87;
+}
+
+@media (max-width: 768px) {
+    #wc-advanced-filter-form input[type="search"],
+    #wc-advanced-filter-form input[type="number"],
+    #wc-advanced-filter-form select {
+        width: 100%;
+        float: none;
+    }
+}
