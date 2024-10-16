@@ -113,10 +113,10 @@ function wc_advanced_filter_form()
                             <option value=""><?php esc_html_e('Select Sale Status', 'woocommerce-advanced-filter-plugin'); ?>
                             </option>
                             <option value="no" <?php selected(isset($_GET['on_sale']) && $_GET['on_sale'] === 'no', true); ?>>
-                                <? esc_html_e('No', 'woocommerce-advanced-filter-plugin'); ?>
+                                <?php esc_html_e('No', 'woocommerce-advanced-filter-plugin'); ?>
                             </option>
                             <option value="yes" <?php selected(isset($_GET['on_sale']) && $_GET['on_sale'] === 'yes', true); ?>>
-                                <? esc_html_e('Yes', 'woocommerce-advanced-filter-plugin'); ?>
+                                <?php esc_html_e('Yes', 'woocommerce-advanced-filter-plugin'); ?>
                             </option>
                         </select>
                     </div>
@@ -124,7 +124,7 @@ function wc_advanced_filter_form()
 
                 <?php if (!empty($enabled_fields['tags'])): ?>
                     <div class="filter-field">
-                        <label for="on_sale"><?php esc_html_e(' Sale Status', 'woocommerce-advanced-filter-plugin'); ?> </label>
+                        <label for="Tags"><?php esc_html_e(' Tags', 'woocommerce-advanced-filter-plugin'); ?> </label>
 
                         <select title="<?php _e('Tags', 'woocommerce-advanced-filter-plugin'); ?>" name="tags">
                             <option value=""> <?php _e('Select Tags', 'woocommerce-advanced-filter-plugin'); ?></option>
@@ -143,7 +143,7 @@ function wc_advanced_filter_form()
 
                 <?php if (!empty($enabled_fields['rating'])): ?>
                     <div class="filter-field">
-                        <label for="rating"><?php esc_html_e(' Select Rating', 'woocommerce-advanced-filter-plugin'); ?>
+                        <label for="rating"><?php esc_html_e('Rating', 'woocommerce-advanced-filter-plugin'); ?>
                         </label>
 
                         <select title="Rating" name="rating">
