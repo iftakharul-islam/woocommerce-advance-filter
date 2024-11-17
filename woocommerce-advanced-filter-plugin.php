@@ -3,8 +3,8 @@
  * Plugin Name: WooCommerce Advanced Filter Plugin
  * Description: Adds advanced search functionality to WooCommerce product searches with custom fields.
  * Version: 1.0
- * Author: codeturner
- * Author URI: https://codecanyon.net/user/codeturner
+ * Author: ifatwp
+ * Author URI: https://profiles.wordpress.org/ifatwp/
  * Text Domain: woocommerce-advanced-filter-plugin
  */
 
